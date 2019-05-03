@@ -1,4 +1,4 @@
-ifeq ($(call my-dir),$(call project-path-for,qcom-media))
+ifeq ($(TARGET_QCOM_DISPLAY_VARIANT),caf-sdm660)
 
 QCOM_MEDIA_ROOT := $(call my-dir)
 
@@ -23,5 +23,4 @@ include $(QCOM_MEDIA_ROOT)/libsidebandstreamhandle/Android.mk
 endif
 
 endif
-
 endif
